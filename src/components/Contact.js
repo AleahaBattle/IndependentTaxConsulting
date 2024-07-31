@@ -100,7 +100,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
+            {/* <div className="contact-item">
               <h3>Contact Info</h3>
               <p>
                 <span>
@@ -108,7 +108,7 @@ const Contact = () => {
                 </span>
                 {data.Contact.address || "loading"}
               </p>
-            </div>
+            </div> */}
             <div className="contact-item">
               <p>
                 <span>
@@ -126,7 +126,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-12">
+          {/* <div className="col-md-12">
             <div className="row">
               <div className="social">
                 <ul>
@@ -148,7 +148,7 @@ const Contact = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
