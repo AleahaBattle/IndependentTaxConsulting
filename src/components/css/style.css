@@ -78,7 +78,7 @@ hr {
   opacity: 0.8;
 }
 #menu.navbar-default {
-  background-color: rgba(0,0,0,.99);
+  background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -86,13 +86,13 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #fff;
+  color: #333;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #fff;
+  color: #555;
   font-size: 15px;
   font-weight: 600;
   padding: 8px 2px;
@@ -241,7 +241,7 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
-.hero .intro-text {
+header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
@@ -264,11 +264,8 @@ a:focus,
 }
 /* About Section */
 #about {
-  padding: 12rem;
+  padding: 100px 0;
 }
-/* .about .container {
-  padding: 10rem;
-} */
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
@@ -312,7 +309,6 @@ a:focus,
   line-height: 24px;
   margin: 30px 0;
 }
-
 /* Services Section */
 #services {
   padding: 100px 0;
@@ -590,11 +586,9 @@ label {
   background: #fff;
 }
 /* Footer Section*/
-.footer {
-  width: 100%;
-  background-color: #000;
-  color: #eee;
-  padding: 1em 2em 2em;
+#footer {
+  background: #f6f6f6;
+  padding: 30px 0;
 }
 .footer p {
   color: #888;
@@ -616,7 +610,7 @@ label {
 
 /* Owner Section */
 #owner {
-  padding: 12rem;
+  padding: 100px 0;
   background: #f6f6f6;
 }
 #owner h3 {
@@ -637,17 +631,6 @@ label {
   bottom: 0;
   left: 0;
 }
-#owner img {
-  width: 520px;
-  margin-top: 10px;
-  background: #fff;
-  border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
-}
-#owner p {
-  line-height: 24px;
-  margin: 30px 0;
-}
 #owner .owner-text li {
   margin-bottom: 6px;
   margin-left: 6px;
@@ -662,21 +645,36 @@ label {
   font-weight: 300;
   padding-right: 8px;
 }
+#owner img {
+  width: 520px;
+  margin-top: 10px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+#owner p {
+  line-height: 24px;
+  margin: 30px 0;
+}
 #owner .btn-custom {
   margin: 30px 0;
   background:  linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   border: 2px solid #fff;
 }
-/* #owner .btn-custom:hover {
+#owner .btn-custom:hover {
   color: #6372ff;
   background: #fff;
   font-weight: 700;
   border: 2px solid #5ca9fb;
-} */
-
+}
 
 @media (max-width: 768px) {
   #about img {
+    margin: 50px 0;
+  }
+}
+@media (max-width: 768px) {
+  #owner img {
     margin: 50px 0;
   }
 }
