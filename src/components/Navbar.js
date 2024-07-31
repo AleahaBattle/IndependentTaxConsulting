@@ -19,7 +19,7 @@ const Navbar = () => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="/">
+          <a className="navbar-brand page-scroll" href="">
             {data.Navigation.title}
             {/* <img src={logo} alt='logo' /> */}
           </a>{" "}
@@ -31,7 +31,7 @@ const Navbar = () => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href='/#' className="page-scroll">Home</a>
+              <a href='#' className="page-scroll">Home</a>
             </li>
             <li>
               <a href="#about" className="page-scroll">About</a>
