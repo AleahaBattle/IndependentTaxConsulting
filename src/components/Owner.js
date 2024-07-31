@@ -15,7 +15,7 @@ const Owner = () => {
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="owner-text">
-            <h2>About The Owner</h2>
+              <h2>About The Owner</h2>
               <span className='line'></span>
               <p>{data.Owner.paragraph1 || "loading..."}</p>
               <p>{data.Owner.paragraph2 || "loading..."}</p>
@@ -27,11 +27,11 @@ const Owner = () => {
                         ))
                     : "loading"}
                   </ul>
+                <a href="#about" className="btn btn-custom btn-lg">
+                  {data.Owner.button || "loading..."}
+                </a>
                 </div>
               </div>
-              <a href="#about" className="btn btn-custom btn-lg">
-                {data.Owner.button || "loading..."}
-              </a>
             </div>
           </div>
         </div>

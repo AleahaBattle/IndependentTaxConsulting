@@ -19,9 +19,8 @@ const Navbar = () => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="">
-            {data.Navigation.title}
-            {/* <img src={logo} alt='logo' /> */}
+          <a className="navbar-brand page-scroll" href=" ">
+          {data.Navigation.title}
           </a>{" "}
         </div>
 
@@ -30,17 +29,25 @@ const Navbar = () => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href='#' className="page-scroll">Home</a>
+          <li>
+              <a href="#" className="page-scroll">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">About</a>
+              <a href="#about" className="page-scroll">
+                About
+              </a>
             </li>
             <li>
-              <a href="#owner" className="page-scroll">Owner</a>
+              <a href="#owner" className="page-scroll">
+                Owner
+              </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">Contact</a>
+              <a href="#contact" className="page-scroll">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
