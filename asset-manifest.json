@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/IndependentTaxConsulting/static/css/main.f855e6bc.css",
-    "main.js": "/IndependentTaxConsulting/static/js/main.08ad21c3.js",
-    "static/js/453.a2d2026c.chunk.js": "/IndependentTaxConsulting/static/js/453.a2d2026c.chunk.js",
-    "static/media/logo.svg": "/IndependentTaxConsulting/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/IndependentTaxConsulting/static/css/main.85ff4395.css",
+    "main.js": "/IndependentTaxConsulting/static/js/main.5a95ae26.js",
+    "static/media/hero.jpg": "/IndependentTaxConsulting/static/media/hero.8562676a6412e9ec4644.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.3.0": "/IndependentTaxConsulting/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
+    "static/media/john-doe.png": "/IndependentTaxConsulting/static/media/john-doe.e4675f127b56d41e5c8a.png",
+    "static/media/fontawesome-webfont.ttf?v=4.3.0": "/IndependentTaxConsulting/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
+    "static/media/glyphicons-halflings-regular.svg": "/IndependentTaxConsulting/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/fontawesome-webfont.woff?v=4.3.0": "/IndependentTaxConsulting/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
+    "static/media/fontawesome-webfont.eot": "/IndependentTaxConsulting/static/media/fontawesome-webfont.03605b2467d43a9f4c63.eot",
+    "static/media/fontawesome-webfont.woff2?v=4.3.0": "/IndependentTaxConsulting/static/media/fontawesome-webfont.fb685a7c7e4aae2d4d71.woff2",
+    "static/media/glyphicons-halflings-regular.ttf": "/IndependentTaxConsulting/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/about.jpg": "/IndependentTaxConsulting/static/media/about.15fd68ace69404e63abb.jpg",
+    "static/media/glyphicons-halflings-regular.woff": "/IndependentTaxConsulting/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/IndependentTaxConsulting/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/IndependentTaxConsulting/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/IndependentTaxConsulting/index.html",
-    "main.f855e6bc.css.map": "/IndependentTaxConsulting/static/css/main.f855e6bc.css.map",
-    "main.08ad21c3.js.map": "/IndependentTaxConsulting/static/js/main.08ad21c3.js.map",
-    "453.a2d2026c.chunk.js.map": "/IndependentTaxConsulting/static/js/453.a2d2026c.chunk.js.map"
+    "main.85ff4395.css.map": "/IndependentTaxConsulting/static/css/main.85ff4395.css.map",
+    "main.5a95ae26.js.map": "/IndependentTaxConsulting/static/js/main.5a95ae26.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.08ad21c3.js"
+    "static/css/main.85ff4395.css",
+    "static/js/main.5a95ae26.js"
   ]
 }
