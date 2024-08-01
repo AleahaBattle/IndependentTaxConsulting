@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IndependentTaxConsulting/static/css/main.7576053a.css",
-    "main.js": "/IndependentTaxConsulting/static/js/main.827e6d18.js",
+    "main.js": "/IndependentTaxConsulting/static/js/main.8a4d1185.js",
     "static/media/hero.jpg": "/IndependentTaxConsulting/static/media/hero.8562676a6412e9ec4644.jpg",
     "static/media/fontawesome-webfont.svg?v=4.3.0": "/IndependentTaxConsulting/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
     "static/media/john-doe.png": "/IndependentTaxConsulting/static/media/john-doe.e4675f127b56d41e5c8a.png",
@@ -17,10 +17,10 @@
     "static/media/glyphicons-halflings-regular.woff2": "/IndependentTaxConsulting/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/IndependentTaxConsulting/index.html",
     "main.7576053a.css.map": "/IndependentTaxConsulting/static/css/main.7576053a.css.map",
-    "main.827e6d18.js.map": "/IndependentTaxConsulting/static/js/main.827e6d18.js.map"
+    "main.8a4d1185.js.map": "/IndependentTaxConsulting/static/js/main.8a4d1185.js.map"
   },
   "entrypoints": [
     "static/css/main.7576053a.css",
-    "static/js/main.827e6d18.js"
+    "static/js/main.8a4d1185.js"
   ]
 }
