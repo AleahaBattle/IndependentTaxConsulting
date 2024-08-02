@@ -1,5 +1,5 @@
 import React from 'react'
-import john from './images/john-doe.png'
+import edward from './images/edward-battle.jpg'
 import './css/style.css'
 import './css/bootstrap.css'
 import data from "../data/data.json"
@@ -11,7 +11,7 @@ const Owner = () => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img src={john} className="img-responsive" alt="john" />{" "}
+            <img src={edward} className="img-responsive" alt="john" />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="owner-text">

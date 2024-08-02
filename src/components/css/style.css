@@ -76,6 +76,7 @@ hr {
   padding: 15px;
   transition: all 0.8s;
   opacity: 0.8;
+  background-color: #fff;
 }
 #menu.navbar-default {
   background-color: #fff;
@@ -89,6 +90,7 @@ hr {
   color: #333;
   text-transform: uppercase;
 }
+#menu.navbar-default .navbar-nav > Link,
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
