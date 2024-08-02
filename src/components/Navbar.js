@@ -8,6 +8,8 @@ const Navbar = () => {
     left: false,
     active: ''
   });
+  const [width, height] = [window.screen.width, window.screen.height];
+  const isMobile = Math.min(width, height) < 768;
 
   const toggleDrawer = (anchor, open, activeLink='') => (event) => {
     if (
@@ -37,7 +39,7 @@ const Navbar = () => {
             <span className="icon-bar"></span>{" "}
           </button>
             <a className="navbar-brand page-scroll" href=" ">
-              {data.Navigation.title}
+              {isMobile ? data.Navigation.shortTitle : data.Navigation.title}
             </a>{" "}
         </div>
         <div
