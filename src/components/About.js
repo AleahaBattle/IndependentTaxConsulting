@@ -1,5 +1,5 @@
 import React from 'react'
-import about from './images/about.jpg'
+import tax from './images/tax-forms.jpg'
 import './css/style.css'
 import './css/bootstrap.css'
 import data from "../data/data.json"
@@ -11,7 +11,7 @@ const About = () => {
           <div className="row">
             <div className="col-xs-12 col-md-6">
               {" "}
-              <img src={about} className="img-responsive" alt="about" />{" "}
+              <img src={tax} className="img-responsive" alt="about" />{" "}
             </div>
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
