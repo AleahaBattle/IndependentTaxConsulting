@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/IndependentTaxConsulting/static/css/main.b55eb1c3.css",
-    "main.js": "/IndependentTaxConsulting/static/js/main.00056f04.js",
-    "static/media/edward-battle.jpg": "/IndependentTaxConsulting/static/media/edward-battle.ca2a81a9dec1b9f7d912.jpg",
-    "static/media/hero.jpg": "/IndependentTaxConsulting/static/media/hero.8562676a6412e9ec4644.jpg",
-    "static/media/fontawesome-webfont.svg?v=4.3.0": "/IndependentTaxConsulting/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
-    "static/media/fontawesome-webfont.ttf?v=4.3.0": "/IndependentTaxConsulting/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
-    "static/media/glyphicons-halflings-regular.svg": "/IndependentTaxConsulting/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
-    "static/media/fontawesome-webfont.woff?v=4.3.0": "/IndependentTaxConsulting/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
-    "static/media/fontawesome-webfont.eot": "/IndependentTaxConsulting/static/media/fontawesome-webfont.03605b2467d43a9f4c63.eot",
-    "static/media/fontawesome-webfont.woff2?v=4.3.0": "/IndependentTaxConsulting/static/media/fontawesome-webfont.fb685a7c7e4aae2d4d71.woff2",
-    "static/media/glyphicons-halflings-regular.ttf": "/IndependentTaxConsulting/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
-    "static/media/about.jpg": "/IndependentTaxConsulting/static/media/about.15fd68ace69404e63abb.jpg",
-    "static/media/glyphicons-halflings-regular.woff": "/IndependentTaxConsulting/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
-    "static/media/glyphicons-halflings-regular.eot": "/IndependentTaxConsulting/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
-    "static/media/glyphicons-halflings-regular.woff2": "/IndependentTaxConsulting/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
-    "index.html": "/IndependentTaxConsulting/index.html",
-    "main.b55eb1c3.css.map": "/IndependentTaxConsulting/static/css/main.b55eb1c3.css.map",
-    "main.00056f04.js.map": "/IndependentTaxConsulting/static/js/main.00056f04.js.map"
+    "main.css": "/static/css/main.e98b1d54.css",
+    "main.js": "/static/js/main.f1f5e50a.js",
+    "static/media/edward-battle.jpg": "/static/media/edward-battle.ca2a81a9dec1b9f7d912.jpg",
+    "static/media/hero.jpg": "/static/media/hero.8562676a6412e9ec4644.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.3.0": "/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
+    "static/media/tax-forms.jpg": "/static/media/tax-forms.a83f48ae543a49cfd628.jpg",
+    "static/media/fontawesome-webfont.ttf?v=4.3.0": "/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
+    "static/media/glyphicons-halflings-regular.svg": "/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/fontawesome-webfont.woff?v=4.3.0": "/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.03605b2467d43a9f4c63.eot",
+    "static/media/fontawesome-webfont.woff2?v=4.3.0": "/static/media/fontawesome-webfont.fb685a7c7e4aae2d4d71.woff2",
+    "static/media/glyphicons-halflings-regular.ttf": "/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/glyphicons-halflings-regular.woff": "/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "index.html": "/index.html",
+    "main.e98b1d54.css.map": "/static/css/main.e98b1d54.css.map",
+    "main.f1f5e50a.js.map": "/static/js/main.f1f5e50a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b55eb1c3.css",
-    "static/js/main.00056f04.js"
+    "static/css/main.e98b1d54.css",
+    "static/js/main.f1f5e50a.js"
   ]
 }
