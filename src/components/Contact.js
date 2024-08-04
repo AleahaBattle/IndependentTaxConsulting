@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import emailjs from "emailjs-com"
 import './css/style.css';
 import './css/bootstrap.css'
 import './fonts/font-awesome/css/font-awesome.css'
@@ -13,31 +12,27 @@ const initialState = {
 
 const Contact = () => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const toEmail = data.Contact.email;
+  const subject = encodeURIComponent(data.Contact.subject) || '';
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
+  const clearState = () => {
+    setState({ ...initialState })
+    document.getElementById("sentMessage").reset();
+  };
   
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    const bodyText = message + "\n\nKind regards,\n\n" + name + "\n" + email;
+    const body = encodeURIComponent(bodyText) || '';
+
+    const emailText = `mailto:${toEmail}?subject=${subject}&body=${body}`;
+    window.open(emailText, '_self');
+    clearState();
   };
   return (
     <div>
@@ -49,7 +44,7 @@ const Contact = () => {
                 <h2>Get In Touch</h2>
                 <p>{data.Contact.paragraph}</p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form id="sentMessage" name="sentMessage" validate='true' onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
