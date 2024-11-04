@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e98b1d54.css",
-    "main.js": "/static/js/main.3c54e89e.js",
+    "main.css": "/static/css/main.3b81c04a.css",
+    "main.js": "/static/js/main.022f3045.js",
     "static/media/edward-battle.jpg": "/static/media/edward-battle.ca2a81a9dec1b9f7d912.jpg",
     "static/media/hero.jpg": "/static/media/hero.8562676a6412e9ec4644.jpg",
     "static/media/fontawesome-webfont.svg?v=4.3.0": "/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
@@ -16,11 +16,11 @@
     "static/media/glyphicons-halflings-regular.eot": "/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
     "static/media/glyphicons-halflings-regular.woff2": "/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/index.html",
-    "main.e98b1d54.css.map": "/static/css/main.e98b1d54.css.map",
-    "main.3c54e89e.js.map": "/static/js/main.3c54e89e.js.map"
+    "main.3b81c04a.css.map": "/static/css/main.3b81c04a.css.map",
+    "main.022f3045.js.map": "/static/js/main.022f3045.js.map"
   },
   "entrypoints": [
-    "static/css/main.e98b1d54.css",
-    "static/js/main.3c54e89e.js"
+    "static/css/main.3b81c04a.css",
+    "static/js/main.022f3045.js"
   ]
 }
