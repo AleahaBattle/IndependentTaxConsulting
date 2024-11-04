@@ -11,11 +11,10 @@ const Hero = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-                <h1>
+                <h1 className="stroke-text">
                   {data.Hero.title || "Loading"}
-                  <span></span>
                 </h1>
-                <p>{data.Hero.paragraph || "Loading"}</p>
+                <p className="stroke-text">{data.Hero.paragraph || "Loading"}</p>
                 <a
                   href="#about"
                   className="btn btn-custom btn-lg page-scroll"

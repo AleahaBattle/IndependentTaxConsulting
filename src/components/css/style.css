@@ -71,6 +71,12 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+/* .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+} */
 /* Navigation */
 #menu {
   padding: 15px;
@@ -248,6 +254,11 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+.stroke-text {
+	color: white;
+	-webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 1px 5px 8px #282828;
+}
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -273,6 +284,7 @@ header .intro-text {
   margin: 0 0 20px;
 }
 #about h2 {
+  font-weight: 500;
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -287,16 +299,18 @@ header .intro-text {
   left: 0;
 }
 #about .about-text li {
+  width: 280px;
   margin-bottom: 6px;
-  margin-left: 6px;
+  margin-left: 0;
   list-style: none;
-  padding: 0;
+  font-size: 14px;
+  padding-left: 6px;
 }
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 300;
   padding-right: 8px;
 }
@@ -463,19 +477,19 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 #contact .section-title p {
   font-size: 16px;
 }
 #contact h2 {
   color: #fff;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
@@ -490,9 +504,9 @@ header .intro-text {
 }
 #contact h3 {
   color: #fff;
-  margin-top: 80px;
-  margin-bottom: 25px;
-  padding-bottom: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 15px;
   font-weight: 400;
 }
 #contact form {
@@ -634,16 +648,18 @@ label {
   left: 0;
 }
 #owner .owner-text li {
+  width: 280px;
   margin-bottom: 6px;
-  margin-left: 6px;
+  margin-left: 0;
   list-style: none;
+  font-size: 14px;
   padding: 0;
 }
 #owner .owner-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 300;
   padding-right: 8px;
 }
