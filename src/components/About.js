@@ -18,15 +18,13 @@ const About = () => {
                 <h2>About Us</h2>
                 <p>{data.About.paragraph || "loading..."}</p>
                 <h3>Why Choose Us?</h3>
-                <div className="list-style">
-                  <div className="col-lg-6 col-sm-6 col-xs-12">
-                    <ul>
-                      {data.About.Why ? data.About.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                          ))
-                      : "loading"}
-                    </ul>
-                  </div>
+                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <ul className="list-inline">
+                    {data.About.Why ? data.About.Why.map((d, i) => (
+                        <li key={`${d}-${i}`}>{d}</li>
+                        ))
+                    : "loading"}
+                  </ul>
                 </div>
               </div>
             </div>

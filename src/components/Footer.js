@@ -5,22 +5,24 @@ import data from "../data/data.json"
 
 const Footer = () => {
   return (
-    <div id="footer">
-      <div className="container text-center">
-        {/* <ul>
-            <li className='nav-item'>
-                <a href='/'>Home</a>
-            </li>
-            <li className='nav-item'>
-                <a href='#about'>About</a>
-            </li>
-            <li className='nav-item'>
-                <a href='#contact'>Contact</a>
-            </li>
-          </ul> */}
-          <p>&copy; {data.Footer.copy}</p>
+    <footer>
+      <div id="footer">
+        <div className="container text-center">
+          {/* <ul>
+              <li className='nav-item'>
+                  <a href='/'>Home</a>
+              </li>
+              <li className='nav-item'>
+                  <a href='#about'>About</a>
+              </li>
+              <li className='nav-item'>
+                  <a href='#contact'>Contact</a>
+              </li>
+            </ul> */}
+            <p>&copy; {data.Footer.copy}</p>
+        </div>
       </div>
-    </div>
+    </footer>
   )
 }
 
