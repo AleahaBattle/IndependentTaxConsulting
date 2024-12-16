@@ -5,15 +5,22 @@ import './fonts/font-awesome/css/font-awesome.css'
 import data from "../data/data.json"
 
 const initialState = {
-    name: "",
-    email: "",
-    message: "",
-  };
+  name: "",
+  email: "",
+  message: "",
+};
 
 const Contact = () => {
   const [{ name, email, message }, setState] = useState(initialState);
   const toEmail = data.Contact.email;
   const subject = encodeURIComponent(data.Contact.subject) || '';
+
+  const street = '2444 Morris Ave';
+  const city = 'Union';
+  const state = 'NJ';
+  const zip = 'Union';
+
+  const addressUrl = 'https://www.google.com/maps/search/?api=1&query='+[street]+','+[city]+','+[state]+','+[zip];
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,7 +30,6 @@ const Contact = () => {
     setState({ ...initialState })
     document.getElementById("sentMessage").reset();
   };
-  
   
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -99,25 +105,29 @@ const Contact = () => {
               <address>
                 <div className="contact-item">
                   <h3>Contact Info</h3>
-                  <p>
-                    <span>
-                      <i className="fa fa-map-marker"></i> Address
-                    </span>
-                    {data.Contact.address1 || "loading"}
-                  </p>
-                  <p>
-                    {data.Contact.address2 || "loading"}
-                  </p>
-                  <p>
-                    {data.Contact.address3 || "loading"}
-                  </p>
+                  <a href={addressUrl} target="_blank" rel="noopener noreferrer">
+                    <p>
+                      <span>
+                        <i className="fa fa-map-marker"></i> Address
+                      </span>
+                      {data.Contact.address1 || "loading"}
+                    </p>
+                    <p>
+                      {data.Contact.address2 || "loading"}
+                    </p>
+                    <p>
+                      {data.Contact.address3 || "loading"}
+                    </p>
+                  </a>
                 </div>
                 <div className="contact-item">
                   <p>
                     <span>
                       <i className="fa fa-phone"></i> Phone
                     </span>{" "}
+                    <a href="tel:+19732049541">
                     {data.Contact.phone || "loading"}
+                    </a>
                   </p>
                 </div>
                 <div className="contact-item">
@@ -125,7 +135,8 @@ const Contact = () => {
                     <span>
                       <i className="fa fa-envelope-o"></i> Email
                     </span>{" "}
-                    {data.Contact.email || "loading"}
+                    <a href="mailto:info@independenttaxconsulting.com">
+                    {data.Contact.email || "loading"}</a>
                   </p>
                 </div>
               </address>
