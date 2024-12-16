@@ -503,6 +503,19 @@ header .intro-text {
   padding-bottom: 15px;
   font-weight: 400;
 }
+#contact p {
+  color: rgba(255, 255, 255, 1);
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 400;
+}
+#contact p > a {
+  color: rgba(255, 255, 255, 1);
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
 #contact form {
   padding-top: 20px;
 }
